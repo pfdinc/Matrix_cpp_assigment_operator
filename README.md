@@ -23,14 +23,14 @@ Matrix(Matrix&&): Move constructor.
 
 
 
-			 			  1 0 0
+			 	   1 0 0
 	Matrix(3) = 		  [0 1 0]
-			              [0 0 1]
+			          [0 0 1]
 			              
 			              
-			       		  0 0
+			       	  0 0
 	Matrix(3,2) = 		  [0 0]
-			              [0 0]
+			          [0 0]
 			              
 			              
 Methods 
@@ -48,14 +48,14 @@ does not create a copy.
 	  1 2
 	  [4 3]  =
 	  [5 6]		              		              
-			       		  1 2 0
+			       	   1 2 0
 	.resize(2,3) = 		  [4 3 0]
 	
 	  1 2
 	  [4 3]  = 
 	  [5 6]
 			
-						   1 4 5
+				   1 4 5
 	.transpose() = 		  [2 3 6]              
 	
 	
